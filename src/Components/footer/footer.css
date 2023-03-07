@@ -1,0 +1,29 @@
+.ul-box-footer {
+  margin: 10px;
+}
+.ul-box-footer a {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+
+  color: #424242;
+}
+.ul-box-footer li::before {
+  content: "-";
+  /* width:40px; */
+  position: absolute;
+  font-size: 20px;
+  height: 4px;
+  color: #ff9b24;
+  display: none;
+  /* background: white; */
+}
+.ul-box-footer li:hover::before {
+  display: block;
+}
+
+.ul-box-footer a:hover {
+  margin-left: 20px;
+  transition: 0.5s;
+  color: #ff9b24;
+}

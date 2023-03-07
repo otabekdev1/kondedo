@@ -1,0 +1,32 @@
+.card-main-img-slider {
+  background: none !important;
+  width: 100%;
+}
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 10px;
+}
+.icon-of-main {
+  display: none;
+}
+.card-main:hover {
+  transition: 0.4s;
+}
+
+.card-main:hover .icon-of-main {
+  display: flex;
+}
+/*
+  --swiper-pagination-color: var(--swiper-theme-color);
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: #000;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+  */

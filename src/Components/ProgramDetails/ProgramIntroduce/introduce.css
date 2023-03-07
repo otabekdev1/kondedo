@@ -1,0 +1,39 @@
+.card-shadow {
+  -webkit-box-shadow: 4px 6px 8px 0px #f9d4a3;
+  -moz-box-shadow: 4px 6px 8px 0px #f9d4a3;
+  box-shadow: 4px 6px 8px 0px #f9d4a3;
+  transition: 0.3s;
+}
+.card-shadow:hover {
+  -webkit-box-shadow: 4px 6px 8px 0px #fe8c00;
+  -moz-box-shadow: 4px 6px 8px 0px #fe8c00;
+  box-shadow: 4px 6px 8px 0px #fe8c00;
+}
+.btn-introduce-hover {
+  overflow: hidden;
+  position: relative;
+}
+.btn-introduce-hover::after {
+  content: "Know More";
+  left: -66px;
+  top: 50px;
+  width: 300px;
+  position: absolute;
+  height: 270px;
+  /* padding: 0px 40px; */
+  padding-top: 98px;
+  color: white;
+  transition: all 0.5s ease;
+  /* display: none; */
+}
+.btn-introduce-hover:hover {
+  color: #fff;
+}
+.btn-introduce-hover:hover::after {
+  content: "Know More";
+  background: #00bbae;
+  top: -85px;
+  border-radius: 50%;
+  color: white;
+  display: block;
+}

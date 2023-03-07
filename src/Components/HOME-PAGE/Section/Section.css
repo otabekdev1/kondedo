@@ -1,0 +1,85 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.card:hover {
+  background: #15bfb4;
+  transition: 0.5s;
+  border: none;
+}
+.card:hover .icon-card-box {
+  background-color: #ff9b24;
+}
+.card:hover .icon-card-box .icon-card {
+  /* font-size: 80px; */
+  color: white;
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+.title-card:hover {
+  color: #ff9b24;
+}
+.card:hover .title-card {
+  color: white;
+}
+.card:hover .text-card {
+  color: white;
+}
+.btn-nonoeasd {
+  overflow: hidden;
+  position: relative;
+}
+.btn-nonoeasd::after {
+  content: "";
+  left: -1px;
+  top: 50px;
+  width: 173px;
+  position: absolute;
+  height: 150px;
+  padding-top: 58px;
+  color: black;
+  transition: all 0.5s ease;
+  /* display: none; */
+}
+.btn-nonoeasd:hover {
+  color: #fff;
+}
+.btn-nonoeasd:hover::after {
+  content: "View Details";
+  background: #ff9b24;
+  top: -45px;
+  border-radius: 50%;
+  color: white;
+  display: block;
+}
+.card:hover .btn-nonoeasd {
+  border-color: white;
+  color: white;
+}
+.img-hover {
+  width: 100%;
+  height: 100%;
+  opacity: 0.06;
+  display: none;
+  top: 0;
+  left: 0;
+
+  position: absolute;
+}
+.card:hover .img-hover {
+  display: block;
+}

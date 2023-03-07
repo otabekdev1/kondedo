@@ -1,0 +1,14 @@
+.animate-img-header {
+  animation: animateimg 4s infinite ease-in;
+}
+@keyframes animateimg {
+  0% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(-90px);
+  }
+}

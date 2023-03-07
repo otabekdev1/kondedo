@@ -1,0 +1,60 @@
+/* .texts-box {
+  transition: 0.4s;
+}
+.texts-box:hover {
+  height: 140px;
+  top: 66%;
+  z-index: 1;
+}
+.icons {
+  display: none;
+}
+.texts-box:hover .icons {
+  display: flex;
+} */
+.bg-hover-box {
+  /* display: none; */
+}
+/* .texts-box:hover + .bg-hover-box {
+} */
+/* .teacher-card {
+  background: none !important;
+} */
+/*   background: linear-gradient(0deg, #ff9b24 0%, rgba(255, 255, 255, 0) 100%);
+  height: 200px;
+  width: 300px;
+  display: block; */
+.texts-box {
+  transition: 0.4s;
+  height: 113px;
+  transition: 0.4s;
+}
+
+.teacher-card:hover .texts-box {
+  height: 160px;
+  bottom: 0;
+}
+.icons {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+.teacher-card:hover .icons {
+  visibility: visible;
+  opacity: 1;
+}
+.bg-hover-box {
+  background: linear-gradient(0deg, #ff9b24 0%, rgba(255, 255, 255, 0) 100%);
+  width: 300px;
+  display: none;
+  border-radius: 50px;
+  -webkit-transition: 12s ease-out;
+  -moz-transition: 12s ease-out;
+  -o-transition: 12s ease-out;
+  transition: 12s ease-out;
+}
+.teacher-card:hover .bg-hover-box {
+  background: linear-gradient(0deg, #ff9b24 0%, rgba(255, 255, 255, 0) 100%);
+  width: 300px;
+  display: block;
+}

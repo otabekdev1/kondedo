@@ -1,0 +1,12 @@
+.cards-classes:hover {
+  transition: 0.4s;
+}
+.cards-classes:hover .card-classes-body {
+  top: 40%;
+  transition: 0.4s;
+  border-radius: 0;
+}
+.cards-classes:hover .img-hover-class {
+  top: 0%;
+  transition: 0.3s;
+}

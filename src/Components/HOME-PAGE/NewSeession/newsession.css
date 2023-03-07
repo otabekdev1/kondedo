@@ -1,0 +1,28 @@
+.btn-sessoin-hover {
+  overflow: hidden;
+  position: relative;
+}
+.btn-sessoin-hover::after {
+  content: "";
+  left: -5px;
+  top: 50px;
+  width: 169px;
+  position: absolute;
+  height: 300px;
+
+  padding-top: 95px;
+  color: #ff9b24;
+  transition: all 0.5s ease;
+  /* display: none; */
+}
+.btn-sessoin-hover:hover {
+  color: #fff;
+}
+.btn-sessoin-hover:hover::after {
+  content: "Apply Now";
+  background: #fff;
+  top: -85px;
+  border-radius: 50%;
+  color: #ff9b24;
+  display: block;
+}

@@ -1,0 +1,55 @@
+.drop-dover {
+  font-size: large;
+}
+.drop-dover:hover {
+  color: #ff9b24;
+  transition: 0.3s;
+  position: relative;
+}
+.dropdown {
+  /* top: 16%; */
+  position: absolute;
+  opacity: 0;
+  background: #00bbae;
+  width: 180px;
+  visibility: hidden;
+  padding: 10px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.drop-dover:hover + .dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown:hover {
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown a::before {
+  content: "";
+  width: 15px;
+  height: 2px;
+  position: absolute;
+}
+.dropdown a:hover {
+  margin-left: 20px;
+  transition: 0.5s;
+}
+.dropdown a:hover:before {
+  left: 7px;
+  background-color: white;
+}
+
+.dropdown-box {
+  padding: 20px 30px;
+  width: 990px;
+  left: 20%;
+  top: 10%;
+  background: #01bbae;
+  z-index: 1;
+}
+.text-box {
+  width: 990px;
+  left: 20%;
+  top: 10%;
+}

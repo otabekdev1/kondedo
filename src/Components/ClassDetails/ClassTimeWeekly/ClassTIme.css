@@ -1,0 +1,7 @@
+.scroll-y-ob {
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
+.scroll-y-ob::-webkit-scrollbar {
+  height: 5px;
+}
