@@ -1,6 +1,6 @@
 import React from "react";
 import { VscSymbolColor } from "react-icons/vsc";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { GiDrum } from "react-icons/gi";
 import { MdOutlineSportsBasketball } from "react-icons/md";
 import "./Section.css";
@@ -44,9 +44,11 @@ export default function Section({ container }) {
               Each day at Mother’s Pride is a cele bration! We celebrate all.
             </p>
             <div className="flex justify-center mt-9">
-              <button className=" btn-nonoeasd  w-[173px] h-[50px] rounded-3xl border-[#FF9B24] border">
-                View Details
-              </button>
+              <Link to="/ClassDetails">
+                <button className=" btn-nonoeasd  w-[173px] h-[50px] rounded-3xl border-[#FF9B24] border">
+                  ClassDetails
+                </button>
+              </Link>
             </div>
           </div>
 

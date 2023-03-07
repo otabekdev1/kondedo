@@ -53,3 +53,6 @@ body {
   scroll-snap-align: start;
 }
 
+.scrool-thumb-none-btn::-webkit-scrollbar{
+height: 10px;
+}

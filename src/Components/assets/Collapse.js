@@ -30,7 +30,7 @@ export default function Collapse({ text, title }) {
               style={{ transition: "9s" }}
               className="p-4 text-[18px] font-normal animation-time-callapse  "
             >
-              {(text, true)}
+              {text}
             </h4>
           </div>
         )}
