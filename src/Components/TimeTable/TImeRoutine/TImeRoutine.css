@@ -1,0 +1,9 @@
+.LinkTime {
+  padding-bottom: 20px;
+  transition: 0.1s all ease-in-out;
+}
+.LinkTime:hover {
+  border-bottom: 3.4px solid #333;
+  border-radius: 1px;
+
+}

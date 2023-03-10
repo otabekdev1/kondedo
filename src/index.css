@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @layer base {
   body {
     font-family: "Fredoka", sans-serif, serif;
@@ -15,12 +16,13 @@
 body {
   background-color: #fff;
 }
+html {
+  scroll-behavior: smooth;
+}
 ::selection {
   background: #333;
-
   color: white;
 }
-
 .bg-none-card {
   background: none !important;
 }
@@ -29,7 +31,6 @@ body {
   background-color: #15bfb4;
 }
 ::-webkit-scrollbar {
-  /* background-color: red; */
   width: 10px;
 }
 .animation-time-callapse {
@@ -53,6 +54,6 @@ body {
   scroll-snap-align: start;
 }
 
-.scrool-thumb-none-btn::-webkit-scrollbar{
-height: 10px;
+.scrool-thumb-none-btn::-webkit-scrollbar {
+  height: 10px;
 }

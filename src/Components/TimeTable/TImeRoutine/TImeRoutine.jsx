@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./TImeRoutine.css";
 export default function TImeRoutine() {
   const tableh1 = "text-[#212529]  text-[23px] p-[8px] font-semibold ";
   const TableOFeaddh1doo =
@@ -19,50 +19,45 @@ export default function TImeRoutine() {
   const heading = "text-white text-[18px] font-semibold p-2 text-center";
   const soLowRed =
     "bg-[#FF7C7C] w-[214px] h-[120px]  border border-white lg:w-[162px] lg:h-[120px]  xl:w-[193px] xl:h-[103px] flex justify-center itemes-center flex-col";
-  const data = [
-    {
-      text: "Play Class",
-    },    {
-      text: "Play Class",
-    },    {
-      text: "Play Class",
-    },    {
-      text: "Play Class",
-    },    {
-      text: "Play Class",
-    },    {
-      text: "Play Class",
-    },
-  ];
+  const LinkTime = "text-[16px] text-[#1b1b1b] font-medium LinkTime";
   return (
     <div className="container max-w-[1440px] m-auto h-[900px] md:h-auto">
       <h1 className="text-[55px] text-center text-[#1b1b1b] font-semibold">
         All Classes Time Table
       </h1>
-      <div className="w-[619px] m-auto">
-        <p className="text-[18px]  text-center text-[#424242] font-normal mb-4 ">
+      <div className="w-[619px] m-auto md:w-auto">
+        <p className="text-[18px]  text-center text-[#424242] font-normal mb-4  ">
           Our multi-level kindergarten programs cater to the age group of 2-5
           years with a curriculum focussing children.
         </p>
       </div>
-      <div className="navOfTime">
-        {/* <ul className="">
+      <div className="navOfTime mt-[70px] mb-[40px]">
+        <ul className="flex justify-center gap-4 ">
           <li className="">
-            <a href="#!" className=""></a>
+            <a href="#!" className={LinkTime}>
+              All Class
+            </a>
           </li>
           <li className="">
-            <a href="#!" className=""></a>
+            <a href="#!" className={LinkTime}>
+              Sports Classs
+            </a>
           </li>
           <li className="">
-            <a href="#!" className=""></a>
+            <a href="#!" className={LinkTime}>
+              Dancing Class
+            </a>
           </li>
           <li className="">
-            <a href="#!" className=""></a>
+            <a href="#!" className={LinkTime}>
+              Drawing Class
+            </a>
           </li>
-        </ul> */}
+        </ul>
+        <div className="w-[410px] sm:text-[12px] lg:w-[auto] h-[3.4px] bg-[#bbb8b8] ml-auto mr-auto mt-[18px]"></div>
       </div>
-      l
-      <div className="flex justify-center overflow-y-auto mb-[120px] scrool-thumb-none-btn pb-[30px]">
+
+      <div className="flex justify-center overflow-y-auto mb-[120px] scrool-thumb-none-btn pb-[30px] flex-wrap">
         <div className="flex flex-col">
           <div
             className={TableOFeaddh1doo}
