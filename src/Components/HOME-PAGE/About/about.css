@@ -2,6 +2,7 @@
   animation: animate 6s infinite;
   position: relative;
   top: -50px;
+  overflow: hidden;
   /* transform: perspective(100px); */
 }
 @keyframes animate {
@@ -11,11 +12,11 @@
     /* top: 0px; */
   }
   50% {
-    right: -500px;
+    right: -460px;
     transform: rotate(-20deg);
   }
   100% {
-    right: 0px;
+    right: -50px;
     transform: rotate(40deg);
   }
 }

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./about.css";
 import Collapse from "../../assets/Collapse";
 export default function About({ container }) {
-  const [open, setOPen] = useState(false);
+
   const data = [
     {
       title: "What Is The Best Age To Start Kindergarten?",
@@ -26,10 +26,10 @@ export default function About({ container }) {
 
   return (
     <>
-      <div className="bg-white p-[120px_0px_60px]">
+      <div className="bg-white p-[120px_0px_60px] md:p-[30px]">
         <div className={container}>
           <div className="flex justify-around items-center flex-wrap">
-            <div className="">
+            <div className="md:w-full">
               <h2 className="text-[#1b1b1b] text-[55px] font-semibold mb-[25px] xl:text-[45px] lg:text-[40px] md:text-[45px] sm:text-[30px]">
                 Know More <br /> About Kindedo
               </h2>

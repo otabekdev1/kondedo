@@ -5,7 +5,7 @@ export default function Collapse({ text, title }) {
 
   return (
     <div className="md:p-4">
-      <div className="border rounded-xl md:w-auto    border-[#b8b4b4] w-[548px] mb-[20px]  ease-in-out ">
+      <div className="border rounded-xl md:w-auto  border-[#b8b4b4] w-[548px] mb-[20px]  ease-in-out ">
         <div
           onClick={() => setOPen(!open)}
           className={`flex h-[72px] rounded-xl  duration-300  items-center justify-around text-[16px] font-semibold    ${

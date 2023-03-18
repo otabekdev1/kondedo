@@ -1,0 +1,28 @@
+.btn-contact-hover {
+  overflow: hidden;
+  position: relative;
+}
+.btn-contact-hover::after {
+  content: "";
+  left: -70px;
+  top: 50px;
+  width: 300px;
+  position: absolute;
+  height: 270px;
+  /* padding: 0px 40px; */
+  padding-top: 105px;
+  color: white;
+  transition: all 0.5s ease;
+  /* display: none; */
+}
+.btn-contact-hover:hover {
+  color: #fff;
+}
+.btn-contact-hover:hover::after {
+  content: " Send Now";
+  background: #00bbae;
+  top: -90px;
+  border-radius: 50%;
+  color: white;
+  display: block;
+}

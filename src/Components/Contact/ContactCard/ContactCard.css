@@ -1,0 +1,8 @@
+.contact-card {
+  -webkit-transition: 0.4s ease-in-out;
+  filter: drop-shadow(4px 4px 0px #ffe1bd);
+}
+.contact-card:hover {
+
+  filter: drop-shadow(4px 4px 0px #FF9B24);
+}

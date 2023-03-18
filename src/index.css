@@ -37,6 +37,7 @@ html {
   transition: 5s;
 }
 .slider-item-our {
+  width: 100%;
   padding: 20px;
   display: grid;
   grid-auto-flow: column;
@@ -56,4 +57,29 @@ html {
 
 .scrool-thumb-none-btn::-webkit-scrollbar {
   height: 10px;
+}
+#progress {
+  background: #ff9b24;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 10px);
+  width: calc(100% - 10px);
+  background: #fff;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  color: #001a2e;
 }

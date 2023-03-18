@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Header container={container} />
-      <Section container={container} /> 
+      <Section container={container} />
       <Main container={container} />
       <OurPrograms container={container} />
       <About container={container} />

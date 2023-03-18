@@ -5,7 +5,7 @@ import { HiHandRaised } from "react-icons/hi2";
 export default function ClassesAbout() {
   return (
     <>
-      <div className="p-[120px_0px_60px] xl:p-0 md:p-5">
+      <div className="p-[90px_0px_40px] xl:p-0 md:p-5">
         <div className="container max-w-[1440px] m-auto">
           <div className="flex justify-around items-center flex-wrap ">
             <div className="flex flex-col">
@@ -23,7 +23,7 @@ export default function ClassesAbout() {
                 new.
               </p>
               <div
-                className="w-[611px] h-[124px] md:h-auto  flex justify-between p-[20px] rounded-2xl border   border-[#e6e6e6] md:w-auto md:flex-wrap"
+                className="w-[611px] h-[124px] md:h-auto   flex justify-between p-[20px]  rounded-2xl border items-center  border-[#e6e6e6] md:w-auto md:flex-wrap"
                 style={{
                   backgroundImage:
                     "linear-gradient(100.88deg, #EBFFFE 0.6%, #FFF6EB 100%)",

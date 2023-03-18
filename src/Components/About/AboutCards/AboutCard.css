@@ -1,0 +1,31 @@
+.card-about-hover:hover::before {
+  background: linear-gradient(100.88deg, #ebfffe 0.6%, #fff6eb 100%);
+  left: 0;
+  border: none;
+  border-radius: 24px;
+}
+.card-about-hover {
+  overflow: hidden;
+  position: relative;
+}
+.card-about-hover::before {
+  width: 323px;
+  content: "";
+  z-index: 1;
+  position: absolute;
+  height: 358px;
+  transition: 0.5s;
+  left: -30%;
+  top: 0px;
+}
+.card-about-hover:hover .titleofAbout {
+  color: black;
+}
+.card-about-hover:hover .box-of-icon {
+  background: #ff9b24;
+  transition: 0.2s ease-in;
+}
+.card-about-hover:hover .box-of-icon > .icon-hover-about {
+  color: white;
+  transition: 0.2s ease-in;
+}

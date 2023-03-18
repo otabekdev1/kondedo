@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 // import Navbar from "../../navbar/Navbar";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
@@ -13,6 +13,15 @@ export default function Header({ container }) {
       <div className="navbar text-center flex flex-col ">
         <NavLink to="/ProgramDetail">ProgramDetail</NavLink>
         <NavLink to="/Shop">Shop</NavLink>
+        <NavLink to="/ClassesofNew">ClassesofNew</NavLink>
+        <NavLink to="/ClassDetails">ClassDetails</NavLink>
+        <NavLink to="/TimeTable">TimeTable</NavLink>
+        <NavLink to="/TeacherDetail">TeacherDetail</NavLink>
+        <NavLink to="/Teacher">Teacher</NavLink>
+        <NavLink to="/Programs">Programs</NavLink>
+        <NavLink to="/Contact">Contact</NavLink>
+        <NavLink to="/About">About</NavLink>
+        <NavLink to="/News">News</NavLink>
       </div>
       <header
         className="pb-[80px]"

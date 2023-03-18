@@ -21,7 +21,7 @@ export default function TImeRoutine() {
     "bg-[#FF7C7C] w-[214px] h-[120px]  border border-white lg:w-[162px] lg:h-[120px]  xl:w-[193px] xl:h-[103px] flex justify-center itemes-center flex-col";
   const LinkTime = "text-[16px] text-[#1b1b1b] font-medium LinkTime";
   return (
-    <div className="container max-w-[1440px] m-auto h-[900px] md:h-auto">
+    <div className="container max-w-[1440px] m-auto h-[900px] h-auto">
       <h1 className="text-[55px] text-center text-[#1b1b1b] font-semibold">
         All Classes Time Table
       </h1>
