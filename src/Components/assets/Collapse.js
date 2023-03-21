@@ -12,7 +12,7 @@ export default function Collapse({ text, title }) {
             !open ? " text-[#1b1b1b]" : "bg-[#FF9B24] text-white   "
           }`}
         >
-          <h2 className="md:text-[16px]">{title}</h2>
+          <h2 className="md:text-[16px] sm:text-[13px]">{title}</h2>
           <div
             className={`w-[28px] h-[28px] border-2  rounded-full flex  justify-center  items-center p-0 m-0 bg-white text-[25px] text-[black]  ${
               !open ? "border-black" : "border-white"

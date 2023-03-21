@@ -7,10 +7,10 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import "./teacher.css";
-export default function Teacher({ container }) {
+export default function Teacher() {
   return (
     <div className="p-[120px_0px] bg-white w-full">
-      <div className={container}>
+      <div className='container'>
         <h1 className="text-[55px] text-[#2b2b2b]  text-center font-semibold ">
           Our Best Teachers
         </h1>
@@ -19,7 +19,7 @@ export default function Teacher({ container }) {
           students <br /> have opportunities to confidently take risks.
         </p>
         <Swiper
-          className="mySwiper relative p-[0px_0px_0px_50px] flex"
+          className="mySwiper relative p-[0px_0px_0px_50px] flex teacher-slide-home"
           pagination={true}
           modules={[Pagination]}
           loop={true}
@@ -28,11 +28,7 @@ export default function Teacher({ container }) {
               // width: 576,
               slidesPerView: 1,
             },
-            768: {
-              // width: 768,
 
-              slidesPerView: 1,
-            },
             1440: {
               slidesPerView: 3,
             },
@@ -49,6 +45,15 @@ export default function Teacher({ container }) {
               slidesPerView: 2,
             },
             1200: {
+              slidesPerView: 2,
+            },
+            1190: {
+              slidesPerView: 2,
+            },
+            1130: {
+              slidesPerView: 2,
+            },
+            700: {
               slidesPerView: 2,
             },
           }}

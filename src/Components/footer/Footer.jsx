@@ -16,7 +16,7 @@ export default function Footer() {
             " linear-gradient(90.87deg, #ffecd6 0.69%, #09b9ad 530.75%)",
         }}
       >
-        <div className={container}>
+        <div className='container'>
           <div className=" xl:p-[30px] p-[280px_0px_45px] grid grid-cols-4 xl:grid-cols-2 lg:grid-cols-1 ">
             <div className="flex flex-col  mb-[40px]">
               <img

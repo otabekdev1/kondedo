@@ -3,7 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 // import Wave from "react-wavify";
-export default function Header({ container }) {
+export default function Header() {
   // const [sidebar, setSidebar] = useState(false);
   // const toogle = () => {
   //   setSidebar((preveState) => !preveState);
@@ -31,8 +31,8 @@ export default function Header({ container }) {
         }}
       >
         {/* <Navbar /> */}{" "}
-        <div className={container}>
-          <div className="flex justify-around items-center mt-40 mb-44 flex-wrap">
+        <div className='container'>
+          <div className="flex  justify-around items-center mt-40 mb-44 flex-wrap">
             <div className="flex flex-col">
               <p className="text-[23px] md:text-[18px]  text-[#00BBAE] font-semibold  ">
                 Kindergarten Program

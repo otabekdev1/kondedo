@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
-export default function OurPrograms({ container }) {
+export default function OurPrograms() {
   const hoverimg =
     "https://www.freepnglogos.com/uploads/shape-png/organic-shape-world-reference-14.png";
   return (
@@ -18,7 +18,7 @@ export default function OurPrograms({ container }) {
           " linear-gradient(90.87deg, #ffecd6 0.69%, #09b9ad 530.75%)",
       }}
     >
-      <div className={container}>
+      <div className='container'>
         <h1 className="text-[#1b1b1b] text-[55px] text-center font-semibold pt-[80px] pb-[15px] xl:text-[45px] lg:text-[40px] md:text-[45px] sm:text-[30px]">
           Our Programs
         </h1>

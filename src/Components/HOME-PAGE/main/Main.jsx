@@ -2,10 +2,10 @@ import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { BsPlayCircle } from "react-icons/bs";
 import "./main.css";
-export default function Main({ container }) {
+export default function Main() {
   return (
     <main className="bg-white">
-      <div className={container}>
+      <div className='cotntainer'>
         <div
           className="flex lg:flex-wrap items-center justify-between  w-full pb-[100px]
         xl:p-[30px] lg:p-[40px_80px_100px_80px] sm:p-[20px]"
@@ -36,7 +36,7 @@ export default function Main({ container }) {
               having a go attempting that difficult question, offering an answer
               in a lesson when you’re simply really trying new.
             </p>
-            <div className="flex justify-around bg-[#00bbae] p-[16px_40px] w-[613px] h-[90px] rounded-3xl mb-[25px] xl:h-[109px] xl:w-[431px] lg:w-full">
+            <div className="flex justify-around bg-[#00bbae] p-[16px_40px] w-[613px] h-[90px] rounded-3xl mb-[25px] xl:h-[109px] xl:w-[431px] md:w-[450px] ">
               <div className="flex items-center xl:flex-col   border-white ">
                 <span className="text-[45px] xl:mt-[-15px]  font-semibold xl:text-[35px]">
                   14+
@@ -46,7 +46,7 @@ export default function Main({ container }) {
                 </p>
               </div>
               <div className="w-[3px] h-[80px] bg-white"></div>
-              <div className="flex xl:flex-col lg:flex-col items-center   ">
+              <div className="flex xl:flex-col lg:flex-col items-center  ">
                 <span className="text-[45px] xl:mt-[-15px] font-semibold xl:text-[35px]">
                   7K+
                 </span>
@@ -82,7 +82,7 @@ export default function Main({ container }) {
             </div>
 
             <div className="flex gap-10">
-              <button className="p-[0px_48px] bg-[#FF9B24] h-[50px] rounded-3xl text-[18px] text-white   font-medium btn-navbar">
+              <button className="text-[16px] text-[white] bg-[#ffb924] w-[260px] rounded-3xl p-[0px_48px] h-[60px] font-medium lg:mb-[30px] btn-main-hover">
                 view More
               </button>
               <div className="flex  relative items-center  gap-4 justify-center ">

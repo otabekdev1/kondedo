@@ -58,3 +58,8 @@
   width: 300px;
   display: block;
 }
+.swiper-pagination {
+  /* top: 100%; */
+  position: unset;
+  /* background: #000; */
+}

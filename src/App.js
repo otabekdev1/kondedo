@@ -28,8 +28,8 @@ function App() {
           <Route path="/TeacherDetail" element={<TeacherDetail />} />
           <Route path="/Teacher" element={<Teacher />} />
           <Route path="/Programs" element={<Programs />} />
-          <Route path="/Contact" element={<Contact />} />{" "}
-          <Route path="/About" element={<AboutPg />} />{" "}
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/About" element={<AboutPg />} />
           <Route path="/News" element={<NewsPage />} />
         </Routes>
         <ScrollProgressBar />

@@ -11,20 +11,19 @@ import News from "./News/News";
 import Footer from "../footer/Footer";
 import Email from "../Email/Email";
 export default function Home() {
-  const container = "container max-w-[1440px] m-auto";
   return (
     <>
-      <Header container={container} />
-      <Section container={container} />
-      <Main container={container} />
-      <OurPrograms container={container} />
-      <About container={container} />
-      <NewSession container={container} />
-      <Teacher container={container} />
+      <Header />
+      <Section />
+      <Main />
+      <OurPrograms />
+      <About />
+      <NewSession />
+      <Teacher />
       {/* <Parents />/ */}
-      <News container={container} />
+      <News />
       <Email />
-      <Footer container={container} />
+      <Footer />
     </>
   );
 }
